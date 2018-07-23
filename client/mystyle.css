@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	background: black;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background: black;
+}
+#logo{
+	width:200px;
+	height: 50px;
+	/* float: left; */
+	padding-left:10px;
+	display: inline;
+
+}
+#navbar{
+	width:1000px;
+	height: 50px;
+	margin: 0px auto;
+	display: inline;
+	margin-top:20px;
+	float: right;
+}
+#navbar>li{
+	float: left;
+	list-style: none;
+	width: 190px;height: 50px;
+	font: bold 12px Arial;
+		display: inline;
+}
+li>a{
+	
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+}
+li>a:hover,
+li>a:focus{
+	background: grey;
+}
+
+
+#newRelease{
+		font:bold 25px Arial;
+		color:white;
+		margin-top:50px;
+		margin-bottom:50px;
+}
+
+#res_btn{
+	width: 50px;
+	height: 50px;
+	float: right;
+	display: inline;
+}
+
+
+.newMovie {
+  display: flex;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto;
+  overflow-y:scroll;	
+
+  
+}
+
+.newMovie::-webkit-scrollbar {
+     opacity: 0.1;
+}
+.newMovie--content {
+	
+	
+  background-color: #e74c3c;
+  min-width: 300px;
+  margin: 5px;
+  box-shadow: 3px 5px rgba(255,255,255,0.05);
+}
+
+.newMovie--content img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
